@@ -1,7 +1,10 @@
 const Footer = () => {
   return (
-    <footer className="bg-[#1d293d] text-white py-6 text-center">
-      <p>&copy; 2025 Denvy. All rights reserved.</p>
+    <footer
+      className="bg-[#1d293d] text-2xl text-white py-6 text-center"
+      style={{ fontFamily: '"EB Garamond", serif' }}
+    >
+      <p>Your Space, Our Signature.</p>
     </footer>
   );
 };
